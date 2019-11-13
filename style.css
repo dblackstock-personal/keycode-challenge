@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+}
+
+h1{
+    text-align:center;
+    flex: 100%;
+}
+
+#outputwrap{
+    display:flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.output{
+    text-align: center;
+    border:black solid 1px;
+    flex:0 0 20%;
+    padding: 1%;
+}
